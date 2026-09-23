@@ -30,7 +30,7 @@ Restart your agent, then try this on a project you have open:
 
 > Use fable-forge. Redesign the landing page in this repo. Show me a direction note first, then build the first screen and check it at 390 and 1440 wide.
 
-New to building with AI? Start with the beginner pack [dainer-design-skills](https://github.com/Rebelzxr/dainer-design-skills) and come back when you want a stricter design process.
+New to building with AI? Start with the beginner guides in the free [dainer.ai library](https://dainer-ai.vercel.app/library) and come back when you want a stricter design process.
 
 ## What it can do
 
@@ -173,6 +173,6 @@ Made by **Dainer**, a systems builder in Kuala Lumpur who builds with AI and sha
 
 - Site: [dainer-ai.vercel.app](https://dainer-ai.vercel.app)
 - Free AI library: [dainer-ai.vercel.app/library](https://dainer-ai.vercel.app/library)
-- Beginner design pack: [Rebelzxr/dainer-design-skills](https://github.com/Rebelzxr/dainer-design-skills)
+- Run your agents with rules, receipts and safety checks: [Rebelzxr/ai-work-os](https://github.com/Rebelzxr/ai-work-os)
 
 Found something confusing or broken? [Open an issue](https://github.com/Rebelzxr/fable-forge/issues) and say what you tried and what happened.

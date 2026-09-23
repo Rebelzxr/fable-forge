@@ -16,7 +16,7 @@ This is the first version published for anyone to install. The method, the 30-it
 - British/Malaysian spelling in the new text (behaviour, authorise).
 
 ### Repo
-- `install.sh` with the same pattern as [dainer-design-skills](https://github.com/Rebelzxr/dainer-design-skills): defaults to `~/.claude/skills`, takes another target folder, leaves an existing install alone unless you pass `--force`.
+- `install.sh`: defaults to `~/.claude/skills`, takes another target folder, leaves an existing install alone unless you pass `--force`.
 - `examples/` with three worked examples reconstructed from public concept studies, each with acceptance evidence checked against the live page.
 - README with a gallery of public sites from Dainer's studio, a scroll GIF and a flow diagram in `assets/`.
 - `NOTICE` was rewritten for public readers: it names the upstream by URL and licence, credits its authors, and states this repo is Dainer's published version. `LICENSE.txt` is unchanged.
