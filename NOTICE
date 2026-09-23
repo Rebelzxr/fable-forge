@@ -1,0 +1,16 @@
+Fable Forge
+Licensed under the Apache License, Version 2.0 (see LICENSE.txt).
+
+This skill adapts ideas from the frontend-design skill published by Anthropic
+at https://github.com/anthropics/skills/tree/main/skills/frontend-design
+under the Apache License, Version 2.0. The same skill ships as the Claude Code
+frontend-design plugin (https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design),
+whose README and plugin.json name its authors as Prithvi Rajasekaran and
+Alexander Bricken.
+
+The upstream material has been modified, condensed and combined with Dainer's
+own guidance. The original frontend-design files are not reproduced verbatim
+in this repository.
+
+This public repository (github.com/Rebelzxr/fable-forge) is Dainer's published
+version of Fable Forge. See CHANGELOG.md for the changes made for public use.

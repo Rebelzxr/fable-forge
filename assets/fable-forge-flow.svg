@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1060" width="800" height="1060" role="img" aria-labelledby="t d">
+  <title id="t">The Fable Forge flow</title>
+  <desc id="d">Five steps from top to bottom: brief, direction, build, render evidence, acceptance. A return arrow from acceptance to build allows at most two focused repair cycles.</desc>
+  <style>
+    .paper { fill: #f5f3ed; }
+    .box { fill: #f5f3ed; stroke: #222724; stroke-width: 3; }
+    .accentbox { fill: #222724; }
+    .num { font: 700 22px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #b8431f; letter-spacing: 2px; }
+    .h { font: 700 40px Georgia, 'Times New Roman', serif; fill: #222724; }
+    .p { font: 400 24px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #222724; }
+    .hi { font: 700 40px Georgia, 'Times New Roman', serif; fill: #f5f3ed; }
+    .pi { font: 400 24px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f5f3ed; }
+    .numi { font: 700 22px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #f0a582; letter-spacing: 2px; }
+    .line { stroke: #222724; stroke-width: 3; fill: none; }
+    .loop { stroke: #b8431f; stroke-width: 4; fill: none; stroke-dasharray: 10 8; }
+    .loopt { font: 700 22px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #b8431f; }
+  </style>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#222724"/>
+    </marker>
+    <marker id="b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b8431f"/>
+    </marker>
+  </defs>
+  <rect class="paper" width="800" height="1060"/>
+
+  <!-- 1 Brief -->
+  <rect class="box" x="40" y="30" width="580" height="150" rx="6"/>
+  <text class="num" x="70" y="72">01</text>
+  <text class="h" x="70" y="118">Brief</text>
+  <text class="p" x="70" y="156">Visitor, page job, one action, real proof.</text>
+  <line class="line" x1="330" y1="180" x2="330" y2="218" marker-end="url(#a)"/>
+
+  <!-- 2 Direction -->
+  <rect class="box" x="40" y="222" width="580" height="150" rx="6"/>
+  <text class="num" x="70" y="264">02</text>
+  <text class="h" x="70" y="310">Direction</text>
+  <text class="p" x="70" y="348">One idea from the subject. Anchors named.</text>
+  <line class="line" x1="330" y1="372" x2="330" y2="410" marker-end="url(#a)"/>
+
+  <!-- 3 Build -->
+  <rect class="box" x="40" y="414" width="580" height="150" rx="6"/>
+  <text class="num" x="70" y="456">03</text>
+  <text class="h" x="70" y="502">Build</text>
+  <text class="p" x="70" y="540">Real route, real stack, one full interaction.</text>
+  <line class="line" x1="330" y1="564" x2="330" y2="602" marker-end="url(#a)"/>
+
+  <!-- 4 Render evidence -->
+  <rect class="box" x="40" y="606" width="580" height="150" rx="6"/>
+  <text class="num" x="70" y="648">04</text>
+  <text class="h" x="70" y="694">Render evidence</text>
+  <text class="p" x="70" y="732">Screenshots at 390, 768, 1440. Click it.</text>
+  <line class="line" x1="330" y1="756" x2="330" y2="794" marker-end="url(#a)"/>
+
+  <!-- 5 Acceptance (accent) -->
+  <rect class="accentbox" x="40" y="798" width="580" height="150" rx="6"/>
+  <text class="numi" x="70" y="840">05</text>
+  <text class="hi" x="70" y="886">Acceptance</text>
+  <text class="pi" x="70" y="924">Checks pass, or say what is unverified.</text>
+
+  <!-- repair loop -->
+  <path class="loop" d="M620,873 H700 V489 H632" marker-end="url(#b)"/>
+  <text class="loopt" x="712" y="640" transform="rotate(90 712 640)" text-anchor="middle">fix, max 2 cycles</text>
+
+  <text class="p" x="40" y="1010" style="font-size:22px;opacity:.75">Fable Forge: a design skill for coding agents</text>
+</svg>

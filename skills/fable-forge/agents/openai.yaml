@@ -1,0 +1,6 @@
+interface:
+  display_name: Fable Forge
+  short_description: Subject-led website design, build, and visual review
+  default_prompt: Use Fable Forge for this website or UI task. Read the current brief and relevant route, choose the fitting work mode, preserve approved direction, and verify the real rendered surface.
+policy:
+  allow_implicit_invocation: true
